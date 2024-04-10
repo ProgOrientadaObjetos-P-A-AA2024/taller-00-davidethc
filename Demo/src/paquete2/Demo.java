@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
 package paquete2;
 
 
@@ -10,6 +12,8 @@ package paquete2;
  *
  * @author reroes
  */
+import paquete1.Mensaje;
+import paquete3.Informacion;
 public class Demo {
 
     /**
@@ -18,6 +22,8 @@ public class Demo {
     public static void main(String[] args) {
         
         // usar printf;
+        String mensaje = Mensaje.obtenerMensaje();
+        System.out.printf(mensaje + " con "+ Informacion.obtenerHabitantes());
     }
     
 }
