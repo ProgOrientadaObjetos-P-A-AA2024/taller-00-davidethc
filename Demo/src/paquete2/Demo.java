@@ -22,6 +22,7 @@ public class Demo {
     public static void main(String[] args) {
         
         // usar printf;
+        // Estoy aprendiendo a utilizar paquetes y metodos los cuales nos ayudan a exportar ala clase main que es donde esta funcionando el programa 
         String mensaje = Mensaje.obtenerMensaje();
         System.out.printf(mensaje + " con "+ Informacion.obtenerHabitantes());
     }
